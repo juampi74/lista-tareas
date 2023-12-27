@@ -26,6 +26,7 @@ const Formulario = (props) => {
         type="text"
         placeholder="Escriba una Tarea"
         name="texto"
+        autoComplete="off"
         onChange={manejarCambio}
       />
       <button className="tarea-boton">Agregar Tarea</button>
